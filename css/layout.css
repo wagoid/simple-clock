@@ -19,15 +19,13 @@ body {
   left: 0;
 }
 
-.page-title {
-  width: 20em;
+nav {
   text-align: center;
-  background: white;
-  padding: 12px;
-  box-shadow: 1px 2px 5px rgba(0, 0, 0, .6);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background: #3198f1;
+  color: #ecf0f1;
+  padding: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   position: relative;
-  margin: 1em auto 5em;
 }
 
 .btn {
@@ -37,7 +35,7 @@ body {
   border-width: 0;
   outline: none;
   border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
   background-color: #2196F3;
   color: #ecf0f1;
 }
