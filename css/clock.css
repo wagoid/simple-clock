@@ -16,7 +16,6 @@
 
 .clock.fade-out {
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
 
 .clock:after {
@@ -90,8 +89,8 @@
   background: rgb(234, 14, 14);
   content: "";
   position: absolute;
-  -webkit-transform: translate(-35%, -100%) rotateZ(45deg);
-          transform: translate(-35%, -100%) rotateZ(45deg);
+  -webkit-transform: translate(-28%, -100%) rotateZ(45deg);
+          transform: translate(-28%, -100%) rotateZ(45deg);
   width: 10px;
   height: 10px;
   z-index: 15;
